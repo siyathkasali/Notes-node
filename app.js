@@ -22,7 +22,7 @@ if (command === 'add'){
 }else if (command === 'list'){
     notes.listNotes();
 }else if (command === 'remove'){
-    notes.deleteNote(argv.title);
+    notes.removeNote(argv.title);
 }else if (command === 'read'){
         notes.getNote(argv.title);
 }else{
